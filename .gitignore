@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Symfony / PHP
+/vendor/
+/var/
+/node_modules/
+.phpunit.result.cache
+.env.local
+.env.local.php
+.env.*.local
+
+# Docker
+/db_data/

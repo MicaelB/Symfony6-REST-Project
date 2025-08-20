@@ -1,0 +1,14 @@
+task_list:
+  path: /api/tasks
+  controller: App\Controller\TaskController::list
+  methods: [GET]
+
+task_show:
+  path: /api/tasks/{id}
+  controller: App\Controller\TaskController::show
+  methods: [GET]
+
+task_create:
+  path: /api/tasks
+  controller: App\Controller\TaskController::create
+  methods: [POST]

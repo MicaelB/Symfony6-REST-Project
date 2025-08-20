@@ -1,0 +1,5 @@
+controllers:
+  resource:
+    path: '%kernel.project_dir%/src/Controller/'
+    namespace: App\Controller
+  type: attribute
