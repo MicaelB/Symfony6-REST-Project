@@ -36,7 +36,7 @@ curl http://localhost:8080/api/tasks/1
 - Postgres: localhost:5432 (container: `db`, user: `app`, pass: `app`, db: `app`)
 - Redis: container `redis` on default port
 
-## Project layout (yours)
+## Project layout
 ```
 symfony6-rest-example/
 ├─ docker/
