@@ -52,6 +52,3 @@ symfony6-rest-example/
 
 > The container bootstraps a fresh Symfony 6.4 skeleton **inside** `/var/www/html`, requires needed packages,
 > copies the code from `src/`, `config/`, and `migrations/`, runs migrations, then serves via PHP's built-in server.
-
-If you want to edit the code live, you can bind-mount your folder into the container (advanced).
-This example keeps it simple to avoid the common pitfalls of overriding the skeleton with an empty host volume.
